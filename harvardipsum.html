@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="harvardipsum.js"></script>
+    </head>
+
+    <body>
+
+        <div id="input">
+            <form action="">
+
+                <label for="numpara">Number of paragraphs</label>
+                <select id="numpara" name="numpara">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+
+                <br>
+
+                <label for="parasize">Paragraph size</label>
+                <select id="parasize" name="parasize">
+                  <option value="3">Small</option>
+                  <option value="7">Medium</option>
+                  <option value="15">Large</option>
+                </select>
+
+                <br>
+
+                <input type="submit" value="Generate!" id="submit">
+            </form>
+        </div>
+
+
+        <div id="output"></div>
+
+    </body>
+</html>
