@@ -6,3 +6,7 @@ div#output {
     width: 25em;
     color:#444;
 }
+
+div#footer {
+    font-size:75%;
+}
