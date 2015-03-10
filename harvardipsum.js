@@ -732,7 +732,6 @@ $(document).ready(function() {
 
     function paragraph(numsentences) {
         var output = "<p class=\"paragraph\">";
-        var output="";
         while (numsentences > 0) {
             var sen = sentence();
             output += sen + " ";
